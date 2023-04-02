@@ -19,11 +19,21 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textEmailAddress" />
+    <EditText
+        android:id="@+id/edit_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
-
+        android:text="makecrash" />
+    <Button
+        android:id="@+id/btnTrackEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="track event" />
 </LinearLayout>
