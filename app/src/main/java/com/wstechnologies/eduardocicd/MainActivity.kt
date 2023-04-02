@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         button.setOnClickListener {
             txt_name.text="hello "+edittext.text.toString()+"\nHayet1"
             //hayet2
+            //hayet3
         }
 
     }
