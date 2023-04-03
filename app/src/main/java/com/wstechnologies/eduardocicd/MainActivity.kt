@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
 
         AppCenter.start(
-            application, "086fc765-fb9a-4531-9c47-ecf732aa2766",
+            application, "43f02347-e251-4c3d-bbba-24afbfd18db9",
             Analytics::class.java, Crashes::class.java
         )
         val edittext = findViewById<EditText>(R.id.edit_name)
@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
             //Crashes.generateTestCrash()
             //feature 1
             //feature 2.1
-            //feature 3
+            //feature 3.1
         }
         btnTrackEvent.setOnClickListener {
 
