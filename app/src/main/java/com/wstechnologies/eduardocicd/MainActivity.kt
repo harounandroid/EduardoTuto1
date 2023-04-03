@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
 
         AppCenter.start(
-            application, "43f02347-e251-4c3d-bbba-24afbfd18db9",
+            application, "0d766d81-cfa3-49c3-a982-c256dda689eb",
             Analytics::class.java, Crashes::class.java
         )
         val edittext = findViewById<EditText>(R.id.edit_name)
