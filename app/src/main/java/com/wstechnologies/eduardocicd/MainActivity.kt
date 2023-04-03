@@ -4,10 +4,12 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.microsoft.appcenter.AppCenter
 import com.microsoft.appcenter.analytics.Analytics
 import com.microsoft.appcenter.crashes.Crashes
+import com.microsoft.appcenter.utils.async.AppCenterConsumer
 
 
 class MainActivity : AppCompatActivity() {
@@ -22,6 +24,15 @@ class MainActivity : AppCompatActivity() {
             application, "d6a3653c-8b08-40a4-b0cd-162df8aba7f3",
             Analytics::class.java, Crashes::class.java
         )
+
+        val future=Crashes.hasCrashedInLastSession()
+        future.thenAccept(AppCenterConsumer {
+            if(it){
+                Toast.makeText(this, "Oops! Sorry about that crash!", Toast.LENGTH_LONG).show()
+            }
+        })
+
+
         val edittext = findViewById<EditText>(R.id.edit_name)
         val edit_age = findViewById<EditText>(R.id.edit_age)
 
