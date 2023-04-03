@@ -1,7 +1,6 @@
 package com.wstechnologies.eduardocicd
 
 import android.os.Bundle
-import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
@@ -40,7 +39,8 @@ class MainActivity : AppCompatActivity() {
             //Log.e("this is exception", ""+1/0)
             //Crashes.generateTestCrash()
             //feature 1
-            //feature 2
+            //feature 2.1
+            //feature 3
         }
         btnTrackEvent.setOnClickListener {
 
