@@ -42,6 +42,7 @@ class MainActivity : AppCompatActivity() {
             //feature 2.1
             //feature 3.1
             //feature 3.2
+            //feature 4
         }
         btnTrackEvent.setOnClickListener {
 
