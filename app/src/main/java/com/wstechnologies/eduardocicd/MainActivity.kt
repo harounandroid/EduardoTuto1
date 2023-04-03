@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
             //Log.e("this is exception", ""+1/0)
             //Crashes.generateTestCrash()
             //feature 1
-            //feature 2
+            //feature 2.1
         }
         btnTrackEvent.setOnClickListener {
 
