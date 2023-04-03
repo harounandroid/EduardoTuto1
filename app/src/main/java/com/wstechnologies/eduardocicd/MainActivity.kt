@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
 
         AppCenter.start(
-            application, "0d766d81-cfa3-49c3-a982-c256dda689eb",
+            application, "d6a3653c-8b08-40a4-b0cd-162df8aba7f3",
             Analytics::class.java, Crashes::class.java
         )
         val edittext = findViewById<EditText>(R.id.edit_name)
@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
 
         val txt_name = findViewById<TextView>(R.id.txt_name)
         button.setOnClickListener {
-            txt_name.text="hello "+edittext.text.toString()+"\nHayet1"
+            txt_name.text="hello "+edittext.text.toString()+" Hayet1"
             //hayet2
             //hayet3
             //hayet4
