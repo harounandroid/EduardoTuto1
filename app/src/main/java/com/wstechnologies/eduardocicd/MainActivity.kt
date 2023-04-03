@@ -56,6 +56,7 @@ class MainActivity : AppCompatActivity() {
             //feature 4
             //new repo ne
             //new repo 1.1
+            //feature 6
         }
         btnTrackEvent.setOnClickListener {
 
